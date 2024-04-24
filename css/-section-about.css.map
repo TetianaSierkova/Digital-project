@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/layout/-section-about.scss"
+    ],
+    "names": [],
+    "file": "-section-about.css"
+}
