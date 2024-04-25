@@ -1,1 +1,41 @@
-/*# sourceMappingURL=-section-about.css.map */
+.section-about {
+  height: 435px;
+  background-color: var(--accent-bgc-color);
+}
+
+.container-about {
+  display: flex;
+}
+
+.box-images-about {
+  margin-left: 90px;
+  margin-right: 20px;
+}
+
+.image-about, .image2-about,
+.image3-about {
+  width: 270px;
+}
+
+.image-about {
+  height: 265px;
+}
+
+.image2-about {
+  height: 140px;
+  margin-top: 20px;
+}
+
+.image3-about {
+  height: 345px;
+  margin-top: 40px;
+}
+
+.box-about {
+  display: flex;
+}
+
+.box-text-about {
+  padding-top: 20px;
+  padding-right: 90px;
+}/*# sourceMappingURL=-section-about.css.map */

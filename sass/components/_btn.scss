@@ -12,6 +12,7 @@
     
     &:hover,
     &:focus {
+        border: 1px solid #F2F2F2;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
 }
@@ -34,5 +35,10 @@
     position: absolute;
     top: 92%;
     left: 0;
+    background-color: var(--primary-bgc-color);
+}
+
+.button-about {
+    margin-top: 10px;
     background-color: var(--primary-bgc-color);
 }

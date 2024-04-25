@@ -1,7 +1,7 @@
 .section-title {
     color: var(--secondary-text-color);
     margin-bottom: 30px;
-    @include font(300, 64px, 1.62, 0.06em);
+    @include font(300, 64px, 1.28, 0.02em);
     text-align: left;
     text-transform: uppercase;
 }

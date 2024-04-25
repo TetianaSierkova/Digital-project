@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"-section-about.min.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/layout/-section-about.scss"],"names":[],"mappings":"AAAA,eACI,aACA,yCAGJ,iBACI,aAGJ,kBACI,iBACA,kBAGJ,yCAEI,YAGJ,aACI,aAGJ,cACI,aACA,gBAGJ,cACI,aACA,gBAGJ,WACI,aAGJ,gBACI,iBACA","file":"-section-about.min.css"}

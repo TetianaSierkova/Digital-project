@@ -43,8 +43,6 @@ body {
 }
 
 img {
-  display: block;
-  width: 100%;
   height: auto;
 }
 
@@ -60,8 +58,9 @@ img {
 }
 
 .section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .container {
@@ -100,6 +99,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover, .button:focus {
+  border: 1px solid #F2F2F2;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -122,13 +122,18 @@ img {
   background-color: var(--primary-bgc-color);
 }
 
+.button-about {
+  margin-top: 10px;
+  background-color: var(--primary-bgc-color);
+}
+
 .section-title {
   color: var(--secondary-text-color);
   margin-bottom: 30px;
   font-weight: 300;
   font-size: 64px;
-  line-height: 1.62;
-  letter-spacing: 0.06em;
+  line-height: 1.28;
+  letter-spacing: 0.02em;
   text-align: left;
   text-transform: uppercase;
 }
@@ -207,7 +212,7 @@ img {
 }
 
 .hero-title {
-  margin-top: 150px;
+  margin-top: 300px;
   margin-right: 100px;
 }
 
@@ -226,4 +231,54 @@ img {
 .image {
   width: 770px;
   height: 830px;
+}
+
+.section-about {
+  height: 435px;
+  background-color: var(--accent-bgc-color);
+}
+
+.container-about {
+  display: flex;
+}
+
+.box-images-about {
+  margin-left: 60px;
+  margin-right: 20px;
+}
+
+.image-about, .image2-about,
+.image3-about {
+  width: 270px;
+}
+
+.image-about {
+  height: 265px;
+}
+
+.image2-about {
+  height: 140px;
+  margin-top: 20px;
+}
+
+.image3-about {
+  height: 345px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.box-about {
+  display: flex;
+}
+
+.box-text-about {
+  padding-top: 20px;
+  padding-right: 60px;
+}
+
+.text-about {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }/*# sourceMappingURL=main.css.map */
