@@ -1,0 +1,38 @@
+.section-hero {
+    height: 830px;
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.container-hero {
+    display: flex;
+}
+
+.hero-title {
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+.title-home {
+    @include font(700, 64px, 1.14, 0.02em);
+    color: var(--primary-text-color);
+}
+
+.icon-button {
+    
+}
+
+.icon-numbers {
+    
+}
+
+.hero-image {
+    position: relative;
+}
+
+.image {
+    width: 770px;
+    height: 830px;
+}

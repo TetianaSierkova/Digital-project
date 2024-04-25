@@ -1,12 +1,5 @@
 .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.section-title {
-    color: var(--secondary-text-color);
-    margin-bottom: 30px;
-    @include font(300, 64px, 1.62, 0.06em);
-    text-align: center;
-    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    //background-color: var(--accent-bgc-color);
 }

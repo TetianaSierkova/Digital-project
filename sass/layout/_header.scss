@@ -4,17 +4,20 @@
 }
 
 .container-header {
+    display: flex;
     width: 1440px;
     @extend %align-items;
 }
 
 .container-nav {
+    display: flex;
     @extend %align-items;
+    margin: 0 auto;
 }
 
 .site-nav {
+    margin-left: 350px;
     @extend %align-items;
-    margin-left: 100px;
 }
 
 .site-nav .link {
@@ -29,7 +32,7 @@
     align-items: center;
 
     &:not(:last-child) {
-        margin-right: 60px;
+        margin-right: 40px;
     }
 }
 
