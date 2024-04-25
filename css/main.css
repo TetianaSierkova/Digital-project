@@ -91,7 +91,7 @@ img {
   padding: 24px 65px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.66;
+  line-height: 1.24;
   letter-spacing: 0.02em;
   font-family: inherit;
   text-align: center;
@@ -117,7 +117,7 @@ img {
 
 .hero-image .button-hero-image {
   position: absolute;
-  top: 92%;
+  top: 91.4%;
   left: 0;
   background-color: var(--primary-bgc-color);
 }
@@ -245,8 +245,15 @@ img {
 }
 
 .box-images-about {
+  position: relative;
   margin-left: 40px;
   margin-right: 25px;
+}
+
+.box-images-about .image2-about {
+  position: absolute;
+  left: 0;
+  top: 70%;
 }
 
 .image-about, .image2-about,

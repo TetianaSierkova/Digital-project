@@ -10,8 +10,15 @@
 }
 
 .box-images-about {
+    position: relative;
     margin-left: 40px;
     margin-right: 25px;
+}
+
+.box-images-about .image2-about {
+    position: absolute;
+    left: 0;
+    top: 70%;
 }
 
 .image-about, .image2-about,
