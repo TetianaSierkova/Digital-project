@@ -1,0 +1,40 @@
+.section-tasks {
+    height: 268px;
+}
+
+.container-tasks {
+    
+}
+
+.tasks {
+    display: flex;
+}
+
+.box-task-1 {
+    width: 413px;
+}
+
+.box-task-1, .box-task-2 {
+    display: flex;
+    height: 144px;
+    //@extend %align-items;
+    //align-items: center;
+}
+
+.number-task {
+    @include font(900, 200px, 1.19);
+    color: var(--third-text-color);
+    @extend %align-items;
+    height: 144px;
+}
+
+.text-task  {
+    @include font(400, 20px, 1.64);
+    @extend %align-items;
+    padding-top: 20px;
+}
+
+.box-task-2 {
+    margin-left: 187px;
+    width: 570px;
+}

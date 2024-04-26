@@ -3,14 +3,14 @@
   --secondary-text-color: #BDBDBD;
   --third-text-color: #F2F2F2;
   --accent-color: #E0E0E0;
-  --hover-color: hsl(71, 89%, 51%);
+  --hover-color: hsl(69, 13%, 61%);
   --accent-secondary-color: #FBFBFB;
   --primary-bgc-color: #ffffff;
   --secondary-bgc-color: #2C2C2C;
   --accent-bgc-color: #F3F3F3;
 }
 
-.site-nav, .container-nav, .container-header {
+.text-task, .number-task, .site-nav, .container-nav, .container-header {
   display: flex;
   align-items: center;
 }
@@ -59,6 +59,7 @@ img {
 
 .section {
   margin-top: 100px;
+  margin-bottom: 100px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -123,15 +124,15 @@ img {
 }
 
 .button-about {
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: var(--primary-bgc-color);
 }
 
 .section-title {
   color: var(--secondary-text-color);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-weight: 300;
-  font-size: 64px;
+  font-size: 60px;
   line-height: 1.28;
   letter-spacing: 0.02em;
   text-align: left;
@@ -289,4 +290,43 @@ img {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+}
+
+.section-tasks {
+  height: 268px;
+}
+
+.tasks {
+  display: flex;
+}
+
+.box-task-1 {
+  width: 413px;
+}
+
+.box-task-1, .box-task-2 {
+  display: flex;
+  height: 144px;
+}
+
+.number-task {
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+  height: 144px;
+}
+
+.text-task {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.64;
+  letter-spacing: 0.03em;
+  padding-top: 20px;
+}
+
+.box-task-2 {
+  margin-left: 187px;
+  width: 570px;
 }/*# sourceMappingURL=main.css.map */
