@@ -33,7 +33,7 @@
 
 .hero-image .button-hero-image {
     position: absolute;
-    top: 91.4%;
+    top: 91.2%;
     left: 0;
     background-color: var(--primary-bgc-color);
 }
@@ -48,4 +48,9 @@
     background-color: var(--primary-text-color);
     color: var(--primary-bgc-color);
     margin-left: 948px;
+}
+
+.button-connect {
+    background-color: var(--primary-text-color);
+    color: var(--primary-bgc-color);
 }
