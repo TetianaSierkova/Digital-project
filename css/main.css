@@ -90,12 +90,18 @@ img {
 }
 
 .logo {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
 }
 
-.logo-header {
-  margin-right: 300px;
+.header-logo {
+  margin-left: 0;
+}
+
+.logo-icon {
+  margin-left: 0;
+  margin-right: 200px;
 }
 
 .button {
@@ -201,17 +207,15 @@ img {
 }
 
 .container-header {
-  display: flex;
   width: 1440px;
 }
 
 .container-nav {
-  display: flex;
   margin: 0 auto;
 }
 
 .site-nav {
-  margin-left: 350px;
+  margin-left: 230px;
 }
 
 .site-nav .link {
@@ -270,7 +274,7 @@ img {
 
 .hero-title {
   margin-top: 300px;
-  margin-right: 100px;
+  margin-right: 130px;
 }
 
 .title-home {
@@ -513,4 +517,10 @@ img {
 .image-connect {
   width: 749px;
   height: 369px;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--secondary-bgc-color);
 }/*# sourceMappingURL=main.css.map */

@@ -4,19 +4,17 @@
 }
 
 .container-header {
-    display: flex;
     width: 1440px;
     @extend %align-items;
 }
 
 .container-nav {
-    display: flex;
     @extend %align-items;
     margin: 0 auto;
 }
 
 .site-nav {
-    margin-left: 350px;
+    margin-left: 230px;
     @extend %align-items;
 }
 
