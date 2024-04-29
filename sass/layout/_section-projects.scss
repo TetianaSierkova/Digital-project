@@ -1,23 +1,46 @@
 .section-projects {
-    
-}
-
-.container-projrcts {
-
+    height: 765px;
 }
 
 .box-images1-projects {
+    margin-top: 40px;
+    display: flex;
+}
 
+.box-images-item {
+    position: relative;
+    width: 570px;
+    height: 255px;
+}
+
+.box-images-item, .image-project {
+    &:not(:last-child) {
+        margin-right: 26px;
+    }
 }
 
 .title-projects {
-    
+    height: 100%;
+    width: 100%;
+    padding: 65px;
+    margin: 0;
+    color: var(--primary-bgc-color);
+    background-color: var(--primary-text-color);
+    opacity: 80%;
+    @extend %align-items;
+    position: absolute;
+    @include font(700, 64px, 1);
+    text-transform: uppercase;
+}
+
+.text-project {
+    position: absolute;
+    bottom: 13%;
+    left: 12%;
+    @include font(400, 12px, 1.66);
+    color: var(--primary-bgc-color);
 }
 
 .box-images2-projects {
-
-}
-
-.button-projects {
-    
+    margin-top: 26px;
 }
