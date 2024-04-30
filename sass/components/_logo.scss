@@ -1,13 +1,12 @@
 .logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    //margin-left: 0;
+    margin-left: 0;
     padding: 0;
     margin: 0;
 }
 
 .logo-icon {
-    margin-right: 500px;
+    margin-top: 15px;
+    margin-right: 440px;
 }
 
 .icon-footer,
@@ -17,5 +16,5 @@
 }
 
 .icon-footer {
-    fill: #ffffff;
+    fill: var(--primary-bgc-color);
 }
