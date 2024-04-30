@@ -1,15 +1,16 @@
 .footer {
+    height: 417px;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--secondary-bgc-color);
 }
 
 .container-footer {
-
+    //display: flex;
 }
 
 .footer-nav {
-
+    display: flex;
 }
 
 .container-nav-footer {
