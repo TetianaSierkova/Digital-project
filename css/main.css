@@ -569,6 +569,7 @@ img {
   line-height: 0.12;
   letter-spacing: 0.03em;
   color: var(--primary-bgc-color);
+  font-family: inherit;
 }
 
 .address-footer {
@@ -583,8 +584,6 @@ img {
 
 .map-icon, .tel-icon,
 .mail-icon {
-  width: 16px;
-  height: 16px;
   fill: var(--primary-bgc-color);
   margin-right: 15px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -593,6 +592,21 @@ img {
 .mail-icon:hover,
 .mail-icon:focus {
   fill: var(--hover-color);
+}
+
+.map-icon {
+  width: 16px;
+  height: 21px;
+}
+
+.tel-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.mail-icon {
+  width: 16px;
+  height: 11px;
 }
 
 .copyright {
