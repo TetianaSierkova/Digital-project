@@ -139,6 +139,7 @@ img {
   cursor: pointer;
 }
 .button-hero:hover, .button-hero:focus {
+  border-color: var(--hover-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -182,6 +183,10 @@ img {
   height: 64px;
 }
 
+.social-list-item {
+  width: 44px;
+  height: 44px;
+}
 .social-list-item:not(:last-child) {
   margin-right: 35px;
 }
@@ -272,6 +277,14 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.icon-button {
+  width: 24px;
+  height: 24px;
+}
+.icon-button:hover, .icon-button:focus {
+  fill: var(--hover-color);
 }
 
 .hero-image {

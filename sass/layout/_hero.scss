@@ -21,7 +21,13 @@
 }
 
 .icon-button {
-    
+    width: 24px;
+    height: 24px;
+
+    &:hover,
+    &:focus {
+        fill: var(--hover-color);
+    }
 }
 
 .hero-image {

@@ -8,6 +8,9 @@
 }
 
 .social-list-item {
+    width: 44px;
+    height: 44px;
+
     &:not(:last-child) {
         margin-right: 35px;
     }
